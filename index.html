@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lois Jung – Research Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f6f8;--ink:#16222d;--muted:#566574;--line:#cdd7de;
+--a:#1d5c8f;--a-bg:#e3eef7;--a-tag:#c9dff0;
+--b:#2b7a55;--b-bg:#e2f1e9;--b-tag:#c6e3d4;
+--p:#8a3f78;--p-bg:#f4e6f1;--p-tag:#e8cde2;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10181f;--ink:#e6edf2;--muted:#9fb0bd;--line:#2b3946;
+--a:#7bb6e6;--a-bg:#16293a;--a-tag:#21415a;--b:#6fcf9f;--b-bg:#15301f;--b-tag:#1f4a31;--p:#e0a3d4;--p-bg:#2d1b2a;--p-tag:#4a2d45}}
+:root[data-theme="dark"]{--bg:#10181f;--ink:#e6edf2;--muted:#9fb0bd;--line:#2b3946;
+--a:#7bb6e6;--a-bg:#16293a;--a-tag:#21415a;--b:#6fcf9f;--b-bg:#15301f;--b-tag:#1f4a31;--p:#e0a3d4;--p-bg:#2d1b2a;--p-tag:#4a2d45}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.6 "IBM Plex Sans",system-ui,sans-serif}
+a{color:inherit;text-underline-offset:3px}
+a:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.wrap{max-width:900px;margin:0 auto;padding:3.5rem 1.5rem 4rem}
+header{margin-bottom:2rem}
+.title{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem 1rem;margin:0 0 .75rem}
+h1{font:600 3.2rem/1.05 "Source Serif 4",Georgia,serif;margin:0;letter-spacing:-.015em}
+.role{font-size:1.05rem;color:var(--muted)}
+.contact{display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;margin:0;padding:0;list-style:none;color:var(--muted)}
+.contact a{color:var(--ink)}
+.intro{font:400 1.25rem/1.55 "Source Serif 4",Georgia,serif;max-width:62ch;margin:0 0 3rem}
+.lab{border-left:6px solid var(--c);background:var(--bg-c);border-radius:0 10px 10px 0;padding:1.75rem 1.75rem .5rem;margin:0 0 2rem}
+.lab.supply{--c:var(--a);--bg-c:var(--a-bg);--t:var(--a-tag)}
+.lab.brite{--c:var(--b);--bg-c:var(--b-bg);--t:var(--b-tag)}
+.lab.proj{--c:var(--p);--bg-c:var(--p-bg);--t:var(--p-tag)}
+.when{color:var(--muted);font-size:.9rem;margin:0 0 .6rem!important}
+h2{font:600 1.55rem/1.2 "Source Serif 4",Georgia,serif;margin:0 0 .35rem;color:var(--c)}
+.meta{color:var(--muted);margin:0 0 1.5rem}
+.projects{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.25rem}
+.project{background:var(--bg);border-radius:8px;padding:1.25rem;display:flex;flex-direction:column}
+.project h3{font:600 1.15rem/1.3 "Source Serif 4",Georgia,serif;margin:0 0 .5rem}
+.project p{margin:0 0 .85rem}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1rem;padding:0;list-style:none}
+.tags li{background:var(--t);border-radius:4px;padding:.1rem .55rem;font-size:.85rem}
+.project a{margin-top:auto;color:var(--c);font-weight:500}
+@media (max-width:760px){
+.wrap{padding:2rem 1.25rem 3rem}
+h1{font-size:2.4rem}
+.projects{grid-template-columns:1fr}
+.lab{padding:1.25rem 1.1rem .25rem}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="title"><h1>Lois Jung</h1><span class="role">MIT MS SCM ’27 | Ex-Deloitte Consulting</span></div>
+<ul class="contact">
+<li><a href="mailto:loisjung8760@gmail.com">loisjung8760@gmail.com</a></li>
+<li><a href="mailto:loisj17@mit.edu">loisj17@mit.edu</a></li>
+<li><a href="https://www.linkedin.com/in/loisjung8760/">LinkedIn</a></li>
+</ul>
+</header>
+<p class="intro">I did undergraduate research at Penn State in two areas: forecasting and market analysis for supply chain, and human factors and medical device usability testing in engineering.</p>
+
+<section class="lab supply">
+<h2>Penn State Center for Supply Chain Research</h2>
+<p class="meta">Undergraduate Researcher under Dr. Robert A. Novack, Smeal College of Business. Jan 2021 – May 2022</p>
+<div class="projects">
+<article class="project">
+<h3>Freight rate forecasting model</h3>
+<p>Built a Python model to forecast freight rates with two engineers, and identified external indicators using Tableau and R.</p>
+<ul class="tags"><li>Python</li><li>R</li><li>Tableau</li><li>Forecasting</li></ul>
+<a href="https://drive.google.com/file/d/1qvJcMRYlIsJZByL_8v1NbR8BGbf_zAVB/view">View project document</a>
+</article>
+<article class="project">
+<h3>Digital supply chain solutions for the US Department of Defense</h3>
+<p>Conducted market research on integrated digital supply chain solutions for the US Department of Defense.</p>
+<ul class="tags"><li>Market research</li><li>Digital supply chain</li></ul>
+<a href="https://drive.google.com/file/d/1cceRSbNcSGobXleJuTGOwPsVGIekbA9E/view">View project document</a>
+</article>
+</div>
+</section>
+
+<section class="lab brite">
+<h2>Penn State Brite Lab</h2>
+<p class="meta">Undergraduate Research Assistant under Dr. Scarlett Miller, College of Engineering. Human factors and ergonomics. Feb 2019 – Dec 2020</p>
+<div class="projects">
+<article class="project">
+<h3>Usability of regional anesthesia training</h3>
+<p>Analyzed usability and performance metrics from Milton S. Hershey Medical Center to improve regional anesthesia training.</p>
+<ul class="tags"><li>Usability</li><li>Medical training</li><li>Data analysis</li></ul>
+<a href="https://drive.google.com/file/d/1G1TF0ive4AgOgy66iaSVHKS_EIDwU8je/view">View project document</a>
+</article>
+<article class="project">
+<h3>Does empathy beget creativity?</h3>
+<p>Investigated how empathy traits relate to creative performance in engineering design, using statistical analysis.</p>
+<ul class="tags"><li>Engineering design</li><li>Statistics</li></ul>
+<a href="https://pure.psu.edu/en/publications/does-empathy-beget-creativity-investigating-the-role-of-trait-emp/">Read the publication</a>
+</article>
+</div>
+</section>
+<section class="lab proj">
+<h2>Projects</h2>
+<p class="meta">Hackathon and engineering design capstone work</p>
+<div class="projects">
+<article class="project">
+<h3>Pandemic Relief Museum</h3>
+<p class="when">Penn State Hackathon, Nov 2020</p>
+<p>Created a website and an app, as a global team, to support Covid patients’ financial loss by providing a service to create and sell artworks.</p>
+<ul class="tags"><li>Web</li><li>App</li><li>Hackathon</li></ul>
+<a href="https://devpost.com/software/pandemic-art-museum">View on Devpost</a>
+</article>
+<article class="project">
+<h3>In-Car Transparent OLED Windshield</h3>
+<p class="when">Engineering Design Capstone, Dec 2017</p>
+<p>Won the Best Engineering Design Award by People’s Choice from Delphi Technologies Co. among 260 teams. Developed the prototype, life cycle analysis, concept of operations, and system diagram with three teammates.</p>
+<ul class="tags"><li>Award winner</li><li>Prototyping</li><li>Systems design</li></ul>
+</article>
+</div>
+</section>
+</div>
+</body>
+</html>
